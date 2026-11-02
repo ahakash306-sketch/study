@@ -1,0 +1,2067 @@
+[
+  {
+    "id": 1,
+    "title": "Foundations of Data & Research",
+    "dates": "Nov 2–8",
+    "desc": "Data types, summary statistics, and framing research questions",
+    "lessons": [
+      {
+        "id": "1.1",
+        "title": "Levels of measurement",
+        "concepts": "Nominal, ordinal, interval and ratio data",
+        "goal": "Recognise measurement scales, appropriate summaries and chart implications.",
+        "example": "Device categories, satisfaction ratings, temperature and task completion time.",
+        "readings": [
+          {
+            "title": "OpenIntro Statistics",
+            "focus": "Introduction to data: variable types and measurement",
+            "url": "https://www.openintro.org/book/os/",
+            "access": "Free online"
+          },
+          {
+            "title": "Kulkarni and Rajamanickam paper",
+            "focus": "PDF page 2: data points and nominal/ordinal classifications",
+            "url": "papers/learning-analytics.pdf#page=2",
+            "access": "Bundled PDF"
+          }
+        ],
+        "studySteps": [
+          "Define the central ideas: Nominal, ordinal, interval and ratio data.",
+          "Use the UX scenario: Device categories, satisfaction ratings, temperature and task completion time.",
+          "Test your understanding: explain how the idea supports this objective: Recognise measurement scales, appropriate summaries and chart implications.",
+          "Write a short evidence-based explanation, cite the reading, and note at least one limitation."
+        ]
+      },
+      {
+        "id": "1.2",
+        "title": "Descriptive statistics",
+        "concepts": "Mean, median, mode, spread and outliers",
+        "goal": "Calculate common summaries and choose robust interpretations.",
+        "example": "Compare checkout times with one unusually slow task.",
+        "readings": [
+          {
+            "title": "OpenIntro Statistics",
+            "focus": "Variables, data types and measurement scales",
+            "url": "https://www.openintro.org/book/os/",
+            "access": "Free online"
+          },
+          {
+            "title": "Fundamentals of Data Visualization",
+            "focus": "The visualisation process and aesthetics",
+            "url": "https://clauswilke.com/dataviz/",
+            "access": "Free online"
+          }
+        ],
+        "studySteps": [
+          "Define the central ideas: Mean, median, mode, spread and outliers.",
+          "Use the UX scenario: Compare checkout times with one unusually slow task.",
+          "Test your understanding: explain how the idea supports this objective: Calculate common summaries and choose robust interpretations.",
+          "Write a short evidence-based explanation, cite the reading, and note at least one limitation."
+        ]
+      },
+      {
+        "id": "1.3",
+        "title": "Visual encoding basics",
+        "concepts": "Marks, channels, encodings and chart choice",
+        "goal": "Match variable types to position, length, hue and area.",
+        "example": "Redesign a customer support dashboard.",
+        "readings": [
+          {
+            "title": "OpenIntro Statistics",
+            "focus": "Variables, data types and measurement scales",
+            "url": "https://www.openintro.org/book/os/",
+            "access": "Free online"
+          },
+          {
+            "title": "Fundamentals of Data Visualization",
+            "focus": "The visualisation process and aesthetics",
+            "url": "https://clauswilke.com/dataviz/",
+            "access": "Free online"
+          }
+        ],
+        "studySteps": [
+          "Define the central ideas: Marks, channels, encodings and chart choice.",
+          "Use the UX scenario: Redesign a customer support dashboard.",
+          "Test your understanding: explain how the idea supports this objective: Match variable types to position, length, hue and area.",
+          "Write a short evidence-based explanation, cite the reading, and note at least one limitation."
+        ]
+      },
+      {
+        "id": "1.4",
+        "title": "Research question anatomy",
+        "concepts": "Questions, constructs, variables and operational definitions",
+        "goal": "Turn fuzzy product concerns into measurable questions.",
+        "example": "Define “ease of completing a claim” in observable terms.",
+        "readings": [
+          {
+            "title": "OpenIntro Statistics",
+            "focus": "Variables, data types and measurement scales",
+            "url": "https://www.openintro.org/book/os/",
+            "access": "Free online"
+          },
+          {
+            "title": "Fundamentals of Data Visualization",
+            "focus": "The visualisation process and aesthetics",
+            "url": "https://clauswilke.com/dataviz/",
+            "access": "Free online"
+          }
+        ],
+        "studySteps": [
+          "Define the central ideas: Questions, constructs, variables and operational definitions.",
+          "Use the UX scenario: Define “ease of completing a claim” in observable terms.",
+          "Test your understanding: explain how the idea supports this objective: Turn fuzzy product concerns into measurable questions.",
+          "Write a short evidence-based explanation, cite the reading, and note at least one limitation."
+        ]
+      }
+    ],
+    "assignments": [
+      {
+        "id": "1-a1",
+        "title": "Data audit and chart critique",
+        "prompt": "Classify 12 variables from a dashboard and critique two charts",
+        "length": "600–800 words",
+        "criteria": "Include variable types, chart choice, two misleading features, and justified recommendations.",
+        "rubric": [
+          [
+            "Problem definition and thesis",
+            20
+          ],
+          [
+            "Conceptual or methodological accuracy",
+            25
+          ],
+          [
+            "Use of evidence and examples",
+            25
+          ],
+          [
+            "Critical reflection and limitations",
+            20
+          ],
+          [
+            "Structure, clarity and citations",
+            10
+          ]
+        ]
+      },
+      {
+        "id": "1-a2",
+        "title": "Research question memo",
+        "prompt": "Write a research question, hypothesis and operational measures for a product flow",
+        "length": "350–500 words",
+        "criteria": "Show question, sample, metric definitions and a possible confound.",
+        "rubric": [
+          [
+            "Problem definition and thesis",
+            20
+          ],
+          [
+            "Conceptual or methodological accuracy",
+            25
+          ],
+          [
+            "Use of evidence and examples",
+            25
+          ],
+          [
+            "Critical reflection and limitations",
+            20
+          ],
+          [
+            "Structure, clarity and citations",
+            10
+          ]
+        ]
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Device type (mobile, desktop, tablet) is what measurement level?",
+        "options": [
+          "Nominal",
+          "Ordinal",
+          "Interval",
+          "Ratio"
+        ],
+        "answer": 0,
+        "why": "Device types are unordered categories."
+      },
+      {
+        "q": "Ranked feature preferences from first to fifth are…",
+        "options": [
+          "Nominal",
+          "Ordinal",
+          "Interval",
+          "Ratio"
+        ],
+        "answer": 1,
+        "why": "The ranks are ordered, but distances between positions are not measurable."
+      },
+      {
+        "q": "Temperature measured in Celsius is generally…",
+        "options": [
+          "Nominal",
+          "Ordinal",
+          "Interval",
+          "Ratio"
+        ],
+        "answer": 2,
+        "why": "Celsius has equal steps but no absolute zero."
+      },
+      {
+        "q": "Task completion time in seconds is…",
+        "options": [
+          "Nominal",
+          "Ordinal",
+          "Interval",
+          "Ratio"
+        ],
+        "answer": 3,
+        "why": "Duration has equal units and a meaningful zero."
+      },
+      {
+        "q": "Which is most resistant to a single extreme duration?",
+        "options": [
+          "Mean",
+          "Median",
+          "Range",
+          "Maximum"
+        ],
+        "answer": 1,
+        "why": "The median is more robust to outliers than the mean."
+      }
+    ],
+    "links": [
+      "https://clauswilke.com/dataviz/",
+      "https://www.khanacademy.org/math/statistics-probability"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Perception & Information Design",
+    "dates": "Nov 9–15",
+    "desc": "Graphical perception, visual hierarchy and storytelling",
+    "lessons": [
+      {
+        "id": "2.1",
+        "title": "How we read charts",
+        "concepts": "Comparison accuracy, preattentive features and visual attention",
+        "goal": "Explain why positions and lengths are often easier to compare than areas.",
+        "example": "Contrast bar, bubble and treemap charts.",
+        "readings": [
+          {
+            "title": "Fundamentals of Data Visualization",
+            "focus": "Visualisation principles, scales, colour and graphical perception",
+            "url": "https://clauswilke.com/dataviz/",
+            "access": "Free online"
+          },
+          {
+            "title": "From Data to Viz",
+            "focus": "Chart families and common caveats",
+            "url": "https://www.data-to-viz.com/",
+            "access": "Free online"
+          }
+        ],
+        "studySteps": [
+          "Define the central ideas: Comparison accuracy, preattentive features and visual attention.",
+          "Use the UX scenario: Contrast bar, bubble and treemap charts.",
+          "Test your understanding: explain how the idea supports this objective: Explain why positions and lengths are often easier to compare than areas.",
+          "Write a short evidence-based explanation, cite the reading, and note at least one limitation."
+        ]
+      },
+      {
+        "id": "2.2",
+        "title": "Scales and colour",
+        "concepts": "Axes, baselines, sequential and diverging palettes",
+        "goal": "Detect distorted axes and select colour encodings based on meaning.",
+        "example": "Audit a stacked dashboard chart.",
+        "readings": [
+          {
+            "title": "Fundamentals of Data Visualization",
+            "focus": "Visualisation principles, scales, colour and graphical perception",
+            "url": "https://clauswilke.com/dataviz/",
+            "access": "Free online"
+          },
+          {
+            "title": "From Data to Viz",
+            "focus": "Chart families and common caveats",
+            "url": "https://www.data-to-viz.com/",
+            "access": "Free online"
+          }
+        ],
+        "studySteps": [
+          "Define the central ideas: Axes, baselines, sequential and diverging palettes.",
+          "Use the UX scenario: Audit a stacked dashboard chart.",
+          "Test your understanding: explain how the idea supports this objective: Detect distorted axes and select colour encodings based on meaning.",
+          "Write a short evidence-based explanation, cite the reading, and note at least one limitation."
+        ]
+      },
+      {
+        "id": "2.3",
+        "title": "Distributions and uncertainty",
+        "concepts": "Histograms, box plots, variability and annotation",
+        "goal": "Show spread, outliers and uncertainty without hiding them.",
+        "example": "Visualise task completion durations.",
+        "readings": [
+          {
+            "title": "Fundamentals of Data Visualization",
+            "focus": "Visualisation principles, scales, colour and graphical perception",
+            "url": "https://clauswilke.com/dataviz/",
+            "access": "Free online"
+          },
+          {
+            "title": "From Data to Viz",
+            "focus": "Chart families and common caveats",
+            "url": "https://www.data-to-viz.com/",
+            "access": "Free online"
+          }
+        ],
+        "studySteps": [
+          "Define the central ideas: Histograms, box plots, variability and annotation.",
+          "Use the UX scenario: Visualise task completion durations.",
+          "Test your understanding: explain how the idea supports this objective: Show spread, outliers and uncertainty without hiding them.",
+          "Write a short evidence-based explanation, cite the reading, and note at least one limitation."
+        ]
+      },
+      {
+        "id": "2.4",
+        "title": "Narrative and exploration",
+        "concepts": "Annotations, interaction and progressive disclosure",
+        "goal": "Distinguish guided narrative from open exploration.",
+        "example": "Analyse the 500 Days of Summer visualisation study.",
+        "readings": [
+          {
+            "title": "Fundamentals of Data Visualization",
+            "focus": "Visualisation principles, scales, colour and graphical perception",
+            "url": "https://clauswilke.com/dataviz/",
+            "access": "Free online"
+          },
+          {
+            "title": "From Data to Viz",
+            "focus": "Chart families and common caveats",
+            "url": "https://www.data-to-viz.com/",
+            "access": "Free online"
+          },
+          {
+            "title": "Sharma & Rajamanickam: Movie narratives",
+            "focus": "PDF pages 5–7: representations, prototype and interaction",
+            "url": "papers/movie-narratives.pdf#page=5",
+            "access": "Bundled PDF"
+          }
+        ],
+        "studySteps": [
+          "Define the central ideas: Annotations, interaction and progressive disclosure.",
+          "Use the UX scenario: Analyse the 500 Days of Summer visualisation study.",
+          "Test your understanding: explain how the idea supports this objective: Distinguish guided narrative from open exploration.",
+          "Write a short evidence-based explanation, cite the reading, and note at least one limitation."
+        ]
+      }
+    ],
+    "assignments": [
+      {
+        "id": "2-a1",
+        "title": "Visual redesign studio",
+        "prompt": "Redesign a dense chart and defend each visual encoding",
+        "length": "500–700 words",
+        "criteria": "Show before/after screenshots or sketches and five design decisions.",
+        "rubric": [
+          [
+            "Problem definition and thesis",
+            20
+          ],
+          [
+            "Conceptual or methodological accuracy",
+            25
+          ],
+          [
+            "Use of evidence and examples",
+            25
+          ],
+          [
+            "Critical reflection and limitations",
+            20
+          ],
+          [
+            "Structure, clarity and citations",
+            10
+          ]
+        ]
+      },
+      {
+        "id": "2-a2",
+        "title": "Paper reading response",
+        "prompt": "Critique how an interactive movie narrative visualisation turns scenes into data",
+        "length": "600–800 words",
+        "criteria": "Identify data model, interaction model, benefits and limitations.",
+        "rubric": [
+          [
+            "Problem definition and thesis",
+            20
+          ],
+          [
+            "Conceptual or methodological accuracy",
+            25
+          ],
+          [
+            "Use of evidence and examples",
+            25
+          ],
+          [
+            "Critical reflection and limitations",
+            20
+          ],
+          [
+            "Structure, clarity and citations",
+            10
+          ]
+        ]
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Best default for comparing categorical counts?",
+        "options": [
+          "Bar chart",
+          "Pie chart with 20 slices",
+          "3D surface",
+          "Area map"
+        ],
+        "answer": 0,
+        "why": "Bars permit direct length comparisons."
+      },
+      {
+        "q": "A truncated bar-chart baseline can…",
+        "options": [
+          "Exaggerate differences",
+          "Eliminate sampling bias",
+          "Improve validity",
+          "Ensure accessibility"
+        ],
+        "answer": 0,
+        "why": "Truncation can make modest differences look large."
+      },
+      {
+        "q": "A histogram primarily depicts…",
+        "options": [
+          "Distribution of numeric values",
+          "Names of users",
+          "Causal relationships",
+          "Ranked features"
+        ],
+        "answer": 0,
+        "why": "Bins show the frequency distribution of a numeric variable."
+      }
+    ],
+    "links": [
+      "https://clauswilke.com/dataviz/",
+      "https://www.data-to-viz.com/"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Quantitative Research Foundations",
+    "dates": "Nov 16–22",
+    "desc": "Sampling, bias, measurement and study designs",
+    "lessons": [
+      {
+        "id": "3.1",
+        "title": "Sampling and representation",
+        "concepts": "Population, sample, convenience bias and generalisability",
+        "goal": "Explain when a convenience sample can mislead.",
+        "example": "Recruit users for a mobile banking study.",
+        "readings": [
+          {
+            "title": "OpenIntro Statistics",
+            "focus": "Sampling, bias, data and studies",
+            "url": "https://www.openintro.org/book/os/",
+            "access": "Free online"
+          },
+          {
+            "title": "Drummond Chapter 6",
+            "focus": "Study designs and comparison groups",
+            "url": "papers/drummond-research-designs.pdf",
+            "access": "Bundled PDF"
+          }
+        ],
+        "studySteps": [
+          "Define the central ideas: Population, sample, convenience bias and generalisability.",
+          "Use the UX scenario: Recruit users for a mobile banking study.",
+          "Test your understanding: explain how the idea supports this objective: Explain when a convenience sample can mislead.",
+          "Write a short evidence-based explanation, cite the reading, and note at least one limitation."
+        ]
+      },
+      {
+        "id": "3.2",
+        "title": "Hypotheses and variables",
+        "concepts": "Independent, dependent and confounding variables",
+        "goal": "Write testable hypotheses with clear metrics.",
+        "example": "Compare two form designs.",
+        "readings": [
+          {
+            "title": "OpenIntro Statistics",
+            "focus": "Sampling, bias, data and studies",
+            "url": "https://www.openintro.org/book/os/",
+            "access": "Free online"
+          },
+          {
+            "title": "Drummond Chapter 6",
+            "focus": "Study designs and comparison groups",
+            "url": "papers/drummond-research-designs.pdf",
+            "access": "Bundled PDF"
+          }
+        ],
+        "studySteps": [
+          "Define the central ideas: Independent, dependent and confounding variables.",
+          "Use the UX scenario: Compare two form designs.",
+          "Test your understanding: explain how the idea supports this objective: Write testable hypotheses with clear metrics.",
+          "Write a short evidence-based explanation, cite the reading, and note at least one limitation."
+        ]
+      },
+      {
+        "id": "3.3",
+        "title": "Measurement and quality",
+        "concepts": "Reliability, validity and construct definition",
+        "goal": "Distinguish a repeatable metric from one that measures the right construct.",
+        "example": "Evaluate “engagement” via session time.",
+        "readings": [
+          {
+            "title": "OpenIntro Statistics",
+            "focus": "Sampling, bias, data and studies",
+            "url": "https://www.openintro.org/book/os/",
+            "access": "Free online"
+          },
+          {
+            "title": "Drummond Chapter 6",
+            "focus": "Study designs and comparison groups",
+            "url": "papers/drummond-research-designs.pdf",
+            "access": "Bundled PDF"
+          }
+        ],
+        "studySteps": [
+          "Define the central ideas: Reliability, validity and construct definition.",
+          "Use the UX scenario: Evaluate “engagement” via session time.",
+          "Test your understanding: explain how the idea supports this objective: Distinguish a repeatable metric from one that measures the right construct.",
+          "Write a short evidence-based explanation, cite the reading, and note at least one limitation."
+        ]
+      },
+      {
+        "id": "3.4",
+        "title": "Design families",
+        "concepts": "Descriptive, observational, experimental and quasi-experimental",
+        "goal": "Choose a suitable design for a question and its constraints.",
+        "example": "Use the supplied Drummond chapter.",
+        "readings": [
+          {
+            "title": "OpenIntro Statistics",
+            "focus": "Sampling, bias, data and studies",
+            "url": "https://www.openintro.org/book/os/",
+            "access": "Free online"
+          },
+          {
+            "title": "Drummond Chapter 6",
+            "focus": "Study designs and comparison groups",
+            "url": "papers/drummond-research-designs.pdf",
+            "access": "Bundled PDF"
+          },
+          {
+            "title": "Drummond: Chapter 6",
+            "focus": "PDF pages 1–4, 13–18: study types, comparison groups and bias",
+            "url": "papers/drummond-research-designs.pdf#page=1",
+            "access": "Bundled PDF"
+          }
+        ],
+        "studySteps": [
+          "Define the central ideas: Descriptive, observational, experimental and quasi-experimental.",
+          "Use the UX scenario: Use the supplied Drummond chapter.",
+          "Test your understanding: explain how the idea supports this objective: Choose a suitable design for a question and its constraints.",
+          "Write a short evidence-based explanation, cite the reading, and note at least one limitation."
+        ]
+      }
+    ],
+    "assignments": [
+      {
+        "id": "3-a1",
+        "title": "Research proposal v1",
+        "prompt": "Plan a quantitative study to compare two checkout designs",
+        "length": "700–900 words",
+        "criteria": "Question, variables, sample, procedure, measures, bias and limitations.",
+        "rubric": [
+          [
+            "Problem definition and thesis",
+            20
+          ],
+          [
+            "Conceptual or methodological accuracy",
+            25
+          ],
+          [
+            "Use of evidence and examples",
+            25
+          ],
+          [
+            "Critical reflection and limitations",
+            20
+          ],
+          [
+            "Structure, clarity and citations",
+            10
+          ]
+        ]
+      },
+      {
+        "id": "3-a2",
+        "title": "Methods comparison",
+        "prompt": "Compare experimental, quasi-experimental and descriptive approaches",
+        "length": "450–650 words",
+        "criteria": "Give one realistic UX case for each; discuss causal inference.",
+        "rubric": [
+          [
+            "Problem definition and thesis",
+            20
+          ],
+          [
+            "Conceptual or methodological accuracy",
+            25
+          ],
+          [
+            "Use of evidence and examples",
+            25
+          ],
+          [
+            "Critical reflection and limitations",
+            20
+          ],
+          [
+            "Structure, clarity and citations",
+            10
+          ]
+        ]
+      }
+    ],
+    "quiz": [
+      {
+        "q": "A study sample is…",
+        "options": [
+          "Everyone eligible",
+          "People actually observed",
+          "A dependent variable",
+          "The null hypothesis"
+        ],
+        "answer": 1,
+        "why": "The sample is the subset measured."
+      },
+      {
+        "q": "A confounder is…",
+        "options": [
+          "An uncontrolled factor affecting outcomes",
+          "The chart title",
+          "Always the independent variable",
+          "A sampling frame"
+        ],
+        "answer": 0,
+        "why": "Confounders can create alternative explanations."
+      },
+      {
+        "q": "Which best describes a descriptive study?",
+        "options": [
+          "It manipulates a treatment",
+          "It necessarily proves cause",
+          "It observes without an intervention",
+          "It always uses random assignment"
+        ],
+        "answer": 2,
+        "why": "Descriptive work characterises variables rather than manipulating an intervention."
+      }
+    ],
+    "links": [
+      "https://www.openintro.org/book/os/",
+      "https://www.khanacademy.org/math/statistics-probability"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Experiments & Statistical Reasoning",
+    "dates": "Nov 23–29",
+    "desc": "Designing credible comparisons and interpreting uncertainty",
+    "lessons": [
+      {
+        "id": "4.1",
+        "title": "Experimental logic",
+        "concepts": "Random assignment, control and intervention",
+        "goal": "Explain why random assignment helps isolate an effect.",
+        "example": "Plan an A/B study of navigation.",
+        "readings": [
+          {
+            "title": "OpenIntro Statistics",
+            "focus": "Inference, confidence intervals, sampling",
+            "url": "https://www.openintro.org/book/os/",
+            "access": "Free online"
+          },
+          {
+            "title": "Yale ENGL 300, Lecture 8",
+            "focus": "Structuralism and semiotics",
+            "url": "https://oyc.yale.edu/english/engl-300/lecture-8",
+            "access": "Free online"
+          }
+        ],
+        "studySteps": [
+          "Define the central ideas: Random assignment, control and intervention.",
+          "Use the UX scenario: Plan an A/B study of navigation.",
+          "Test your understanding: explain how the idea supports this objective: Explain why random assignment helps isolate an effect.",
+          "Write a short evidence-based explanation, cite the reading, and note at least one limitation."
+        ]
+      },
+      {
+        "id": "4.2",
+        "title": "Quasi-experiments",
+        "concepts": "Nonrandom comparison groups and interrupted time series",
+        "goal": "Spot threats when real-world assignment is constrained.",
+        "example": "Compare a feature rollout across teams.",
+        "readings": [
+          {
+            "title": "OpenIntro Statistics",
+            "focus": "Inference, confidence intervals, sampling",
+            "url": "https://www.openintro.org/book/os/",
+            "access": "Free online"
+          },
+          {
+            "title": "Yale ENGL 300, Lecture 8",
+            "focus": "Structuralism and semiotics",
+            "url": "https://oyc.yale.edu/english/engl-300/lecture-8",
+            "access": "Free online"
+          }
+        ],
+        "studySteps": [
+          "Define the central ideas: Nonrandom comparison groups and interrupted time series.",
+          "Use the UX scenario: Compare a feature rollout across teams.",
+          "Test your understanding: explain how the idea supports this objective: Spot threats when real-world assignment is constrained.",
+          "Write a short evidence-based explanation, cite the reading, and note at least one limitation."
+        ]
+      },
+      {
+        "id": "4.3",
+        "title": "Sampling uncertainty",
+        "concepts": "Confidence intervals, standard error and interpretation",
+        "goal": "Explain uncertainty without claiming a probability about a fixed parameter.",
+        "example": "Interpret a conversion-rate interval.",
+        "readings": [
+          {
+            "title": "OpenIntro Statistics",
+            "focus": "Inference, confidence intervals, sampling",
+            "url": "https://www.openintro.org/book/os/",
+            "access": "Free online"
+          },
+          {
+            "title": "Yale ENGL 300, Lecture 8",
+            "focus": "Structuralism and semiotics",
+            "url": "https://oyc.yale.edu/english/engl-300/lecture-8",
+            "access": "Free online"
+          }
+        ],
+        "studySteps": [
+          "Define the central ideas: Confidence intervals, standard error and interpretation.",
+          "Use the UX scenario: Interpret a conversion-rate interval.",
+          "Test your understanding: explain how the idea supports this objective: Explain uncertainty without claiming a probability about a fixed parameter.",
+          "Write a short evidence-based explanation, cite the reading, and note at least one limitation."
+        ]
+      },
+      {
+        "id": "4.4",
+        "title": "Structuralism primer",
+        "concepts": "Saussure, signifier/signified and systems of difference",
+        "goal": "Analyse how interface categories get their meaning.",
+        "example": "Labels: approved, pending and rejected.",
+        "readings": [
+          {
+            "title": "OpenIntro Statistics",
+            "focus": "Inference, confidence intervals, sampling",
+            "url": "https://www.openintro.org/book/os/",
+            "access": "Free online"
+          },
+          {
+            "title": "Yale ENGL 300, Lecture 8",
+            "focus": "Structuralism and semiotics",
+            "url": "https://oyc.yale.edu/english/engl-300/lecture-8",
+            "access": "Free online"
+          }
+        ],
+        "studySteps": [
+          "Define the central ideas: Saussure, signifier/signified and systems of difference.",
+          "Use the UX scenario: Labels: approved, pending and rejected.",
+          "Test your understanding: explain how the idea supports this objective: Analyse how interface categories get their meaning.",
+          "Write a short evidence-based explanation, cite the reading, and note at least one limitation."
+        ]
+      }
+    ],
+    "assignments": [
+      {
+        "id": "4-a1",
+        "title": "Experiment protocol",
+        "prompt": "Design a controlled usability experiment with bias controls",
+        "length": "800–1,000 words",
+        "criteria": "Include recruitment, randomisation, tasks, operational measures and ethics.",
+        "rubric": [
+          [
+            "Problem definition and thesis",
+            20
+          ],
+          [
+            "Conceptual or methodological accuracy",
+            25
+          ],
+          [
+            "Use of evidence and examples",
+            25
+          ],
+          [
+            "Critical reflection and limitations",
+            20
+          ],
+          [
+            "Structure, clarity and citations",
+            10
+          ]
+        ]
+      },
+      {
+        "id": "4-a2",
+        "title": "Semiotic interface analysis",
+        "prompt": "Analyse labels, icons and category relationships through structuralism",
+        "length": "450–650 words",
+        "criteria": "Describe a sign system and its assumed rules.",
+        "rubric": [
+          [
+            "Problem definition and thesis",
+            20
+          ],
+          [
+            "Conceptual or methodological accuracy",
+            25
+          ],
+          [
+            "Use of evidence and examples",
+            25
+          ],
+          [
+            "Critical reflection and limitations",
+            20
+          ],
+          [
+            "Structure, clarity and citations",
+            10
+          ]
+        ]
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Random assignment primarily helps…",
+        "options": [
+          "Balance confounding factors between groups",
+          "Ensure representative sampling",
+          "Guarantee significant results",
+          "Eliminate measurement error"
+        ],
+        "answer": 0,
+        "why": "It reduces systematic baseline differences in expectation."
+      },
+      {
+        "q": "A quasi-experiment typically lacks…",
+        "options": [
+          "A research question",
+          "Random assignment",
+          "Outcome measurement",
+          "A comparison possibility"
+        ],
+        "answer": 1,
+        "why": "Quasi-experimental research has an intervention without full random assignment."
+      },
+      {
+        "q": "Structuralism emphasises…",
+        "options": [
+          "Meaning from relations within systems",
+          "Only individual intuition",
+          "Unlimited fixed universal meanings",
+          "Only cognitive biases"
+        ],
+        "answer": 0,
+        "why": "Signs acquire meaning through relations and differences."
+      }
+    ],
+    "links": [
+      "https://www.openintro.org/book/os/",
+      "https://oyc.yale.edu/english/engl-300/lecture-8"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Testing, Correlation & Deconstruction",
+    "dates": "Nov 30–Dec 6",
+    "desc": "Statistical inference and multiple meanings in interfaces",
+    "lessons": [
+      {
+        "id": "5.1",
+        "title": "Hypothesis testing",
+        "concepts": "Null hypothesis, p-values and decision errors",
+        "goal": "Interpret p-values without calling them probabilities the null is true.",
+        "example": "Evaluate an A/B result.",
+        "readings": [
+          {
+            "title": "Khan Academy Statistics",
+            "focus": "Hypothesis testing, p-values, correlation and regression",
+            "url": "https://www.khanacademy.org/math/statistics-probability",
+            "access": "Free online"
+          },
+          {
+            "title": "Yale ENGL 300",
+            "focus": "Theory and post-structuralism",
+            "url": "https://oyc.yale.edu/english/engl-300",
+            "access": "Free online"
+          }
+        ],
+        "studySteps": [
+          "Define the central ideas: Null hypothesis, p-values and decision errors.",
+          "Use the UX scenario: Evaluate an A/B result.",
+          "Test your understanding: explain how the idea supports this objective: Interpret p-values without calling them probabilities the null is true.",
+          "Write a short evidence-based explanation, cite the reading, and note at least one limitation."
+        ]
+      },
+      {
+        "id": "5.2",
+        "title": "Group comparisons",
+        "concepts": "t-tests and ANOVA at a conceptual level",
+        "goal": "Choose a comparison approach given number of groups and assumptions.",
+        "example": "Compare task times across two or three UIs.",
+        "readings": [
+          {
+            "title": "Khan Academy Statistics",
+            "focus": "Hypothesis testing, p-values, correlation and regression",
+            "url": "https://www.khanacademy.org/math/statistics-probability",
+            "access": "Free online"
+          },
+          {
+            "title": "Yale ENGL 300",
+            "focus": "Theory and post-structuralism",
+            "url": "https://oyc.yale.edu/english/engl-300",
+            "access": "Free online"
+          }
+        ],
+        "studySteps": [
+          "Define the central ideas: t-tests and ANOVA at a conceptual level.",
+          "Use the UX scenario: Compare task times across two or three UIs.",
+          "Test your understanding: explain how the idea supports this objective: Choose a comparison approach given number of groups and assumptions.",
+          "Write a short evidence-based explanation, cite the reading, and note at least one limitation."
+        ]
+      },
+      {
+        "id": "5.3",
+        "title": "Association",
+        "concepts": "Correlation, scatterplots and regression basics",
+        "goal": "Distinguish association, prediction and causation.",
+        "example": "Compare steps taken and time on task.",
+        "readings": [
+          {
+            "title": "Khan Academy Statistics",
+            "focus": "Hypothesis testing, p-values, correlation and regression",
+            "url": "https://www.khanacademy.org/math/statistics-probability",
+            "access": "Free online"
+          },
+          {
+            "title": "Yale ENGL 300",
+            "focus": "Theory and post-structuralism",
+            "url": "https://oyc.yale.edu/english/engl-300",
+            "access": "Free online"
+          }
+        ],
+        "studySteps": [
+          "Define the central ideas: Correlation, scatterplots and regression basics.",
+          "Use the UX scenario: Compare steps taken and time on task.",
+          "Test your understanding: explain how the idea supports this objective: Distinguish association, prediction and causation.",
+          "Write a short evidence-based explanation, cite the reading, and note at least one limitation."
+        ]
+      },
+      {
+        "id": "5.4",
+        "title": "Post-structuralism",
+        "concepts": "Derrida, deconstruction and contextual meaning",
+        "goal": "Find assumptions and excluded interpretations in a UX flow.",
+        "example": "Question what “verified” means to users.",
+        "readings": [
+          {
+            "title": "Khan Academy Statistics",
+            "focus": "Hypothesis testing, p-values, correlation and regression",
+            "url": "https://www.khanacademy.org/math/statistics-probability",
+            "access": "Free online"
+          },
+          {
+            "title": "Yale ENGL 300",
+            "focus": "Theory and post-structuralism",
+            "url": "https://oyc.yale.edu/english/engl-300",
+            "access": "Free online"
+          }
+        ],
+        "studySteps": [
+          "Define the central ideas: Derrida, deconstruction and contextual meaning.",
+          "Use the UX scenario: Question what “verified” means to users.",
+          "Test your understanding: explain how the idea supports this objective: Find assumptions and excluded interpretations in a UX flow.",
+          "Write a short evidence-based explanation, cite the reading, and note at least one limitation."
+        ]
+      }
+    ],
+    "assignments": [
+      {
+        "id": "5-a1",
+        "title": "Statistics interpretation memo",
+        "prompt": "Interpret a fabricated A/B report responsibly",
+        "length": "500–700 words",
+        "criteria": "Discuss effect size, uncertainty, limitations and actionable next steps.",
+        "rubric": [
+          [
+            "Problem definition and thesis",
+            20
+          ],
+          [
+            "Conceptual or methodological accuracy",
+            25
+          ],
+          [
+            "Use of evidence and examples",
+            25
+          ],
+          [
+            "Critical reflection and limitations",
+            20
+          ],
+          [
+            "Structure, clarity and citations",
+            10
+          ]
+        ]
+      },
+      {
+        "id": "5-a2",
+        "title": "Deconstruct an interface",
+        "prompt": "Explain competing meanings and implicit binaries in a product",
+        "length": "650–850 words",
+        "criteria": "Discuss context, assumptions and alternative interpretations.",
+        "rubric": [
+          [
+            "Problem definition and thesis",
+            20
+          ],
+          [
+            "Conceptual or methodological accuracy",
+            25
+          ],
+          [
+            "Use of evidence and examples",
+            25
+          ],
+          [
+            "Critical reflection and limitations",
+            20
+          ],
+          [
+            "Structure, clarity and citations",
+            10
+          ]
+        ]
+      }
+    ],
+    "quiz": [
+      {
+        "q": "A p-value is…",
+        "options": [
+          "Probability the null is true",
+          "Probability of data at least as extreme, under the null model",
+          "Effect size",
+          "Chance the design is ethical"
+        ],
+        "answer": 1,
+        "why": "It is calculated assuming the null model, not a probability assigned to the hypothesis."
+      },
+      {
+        "q": "Correlation alone demonstrates…",
+        "options": [
+          "Causation",
+          "Association",
+          "Randomisation",
+          "Experimental control"
+        ],
+        "answer": 1,
+        "why": "Association does not establish causality."
+      },
+      {
+        "q": "Post-structuralism highlights…",
+        "options": [
+          "Meaning as contextual and contestable",
+          "Absolute fixed interpretation",
+          "Only sample size",
+          "The absence of language"
+        ],
+        "answer": 0,
+        "why": "Interpretation varies with context and social practices."
+      }
+    ],
+    "links": [
+      "https://www.khanacademy.org/math/statistics-probability",
+      "https://oyc.yale.edu/english/engl-300"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Power, Discourse & Technology",
+    "dates": "Dec 7–13",
+    "desc": "Critical analysis of technological products and institutions",
+    "lessons": [
+      {
+        "id": "6.1",
+        "title": "Foucault and knowledge",
+        "concepts": "Power/knowledge, classifications and institutions",
+        "goal": "Explain how classification can shape behaviour and opportunity.",
+        "example": "Examine a recruitment ranking system.",
+        "readings": [
+          {
+            "title": "Stanford Encyclopedia: Foucault",
+            "focus": "Power, knowledge and discipline",
+            "url": "https://plato.stanford.edu/entries/foucault/",
+            "access": "Free online"
+          },
+          {
+            "title": "Design Justice",
+            "focus": "Critical and ethical questions about technology",
+            "url": "https://designjustice.mitpress.mit.edu/",
+            "access": "Free online"
+          },
+          {
+            "title": "Winner: Do Artifacts Have Politics?",
+            "focus": "Technology and political arrangements",
+            "url": "https://classes.cs.uchicago.edu/archive/2020/winter/20370-1/readings/Winner.pdf",
+            "access": "Free online"
+          }
+        ],
+        "studySteps": [
+          "Define the central ideas: Power/knowledge, classifications and institutions.",
+          "Use the UX scenario: Examine a recruitment ranking system.",
+          "Test your understanding: explain how the idea supports this objective: Explain how classification can shape behaviour and opportunity.",
+          "Write a short evidence-based explanation, cite the reading, and note at least one limitation."
+        ]
+      },
+      {
+        "id": "6.2",
+        "title": "Discipline and surveillance",
+        "concepts": "Panopticism, visibility and self-regulation",
+        "goal": "Analyse the effects of always-on tracking.",
+        "example": "Workplace productivity dashboards.",
+        "readings": [
+          {
+            "title": "Stanford Encyclopedia: Foucault",
+            "focus": "Power, knowledge and discipline",
+            "url": "https://plato.stanford.edu/entries/foucault/",
+            "access": "Free online"
+          },
+          {
+            "title": "Design Justice",
+            "focus": "Critical and ethical questions about technology",
+            "url": "https://designjustice.mitpress.mit.edu/",
+            "access": "Free online"
+          },
+          {
+            "title": "Winner: Do Artifacts Have Politics?",
+            "focus": "Technology and political arrangements",
+            "url": "https://classes.cs.uchicago.edu/archive/2020/winter/20370-1/readings/Winner.pdf",
+            "access": "Free online"
+          }
+        ],
+        "studySteps": [
+          "Define the central ideas: Panopticism, visibility and self-regulation.",
+          "Use the UX scenario: Workplace productivity dashboards.",
+          "Test your understanding: explain how the idea supports this objective: Analyse the effects of always-on tracking.",
+          "Write a short evidence-based explanation, cite the reading, and note at least one limitation."
+        ]
+      },
+      {
+        "id": "6.3",
+        "title": "Discourse and norms",
+        "concepts": "How words and categories legitimise some practices",
+        "goal": "Ask who defines success and normality in a platform.",
+        "example": "Eligibility and risk scores.",
+        "readings": [
+          {
+            "title": "Stanford Encyclopedia: Foucault",
+            "focus": "Power, knowledge and discipline",
+            "url": "https://plato.stanford.edu/entries/foucault/",
+            "access": "Free online"
+          },
+          {
+            "title": "Design Justice",
+            "focus": "Critical and ethical questions about technology",
+            "url": "https://designjustice.mitpress.mit.edu/",
+            "access": "Free online"
+          },
+          {
+            "title": "Winner: Do Artifacts Have Politics?",
+            "focus": "Technology and political arrangements",
+            "url": "https://classes.cs.uchicago.edu/archive/2020/winter/20370-1/readings/Winner.pdf",
+            "access": "Free online"
+          }
+        ],
+        "studySteps": [
+          "Define the central ideas: How words and categories legitimise some practices.",
+          "Use the UX scenario: Eligibility and risk scores.",
+          "Test your understanding: explain how the idea supports this objective: Ask who defines success and normality in a platform.",
+          "Write a short evidence-based explanation, cite the reading, and note at least one limitation."
+        ]
+      },
+      {
+        "id": "6.4",
+        "title": "Politics of artefacts",
+        "concepts": "Winner, design decisions and distribution of power",
+        "goal": "Analyse who benefits, who is excluded and who governs technology.",
+        "example": "Identity checks and automated moderation.",
+        "readings": [
+          {
+            "title": "Stanford Encyclopedia: Foucault",
+            "focus": "Power, knowledge and discipline",
+            "url": "https://plato.stanford.edu/entries/foucault/",
+            "access": "Free online"
+          },
+          {
+            "title": "Design Justice",
+            "focus": "Critical and ethical questions about technology",
+            "url": "https://designjustice.mitpress.mit.edu/",
+            "access": "Free online"
+          },
+          {
+            "title": "Winner: Do Artifacts Have Politics?",
+            "focus": "Technology and political arrangements",
+            "url": "https://classes.cs.uchicago.edu/archive/2020/winter/20370-1/readings/Winner.pdf",
+            "access": "Free online"
+          }
+        ],
+        "studySteps": [
+          "Define the central ideas: Winner, design decisions and distribution of power.",
+          "Use the UX scenario: Identity checks and automated moderation.",
+          "Test your understanding: explain how the idea supports this objective: Analyse who benefits, who is excluded and who governs technology.",
+          "Write a short evidence-based explanation, cite the reading, and note at least one limitation."
+        ]
+      }
+    ],
+    "assignments": [
+      {
+        "id": "6-a1",
+        "title": "Critical technology essay",
+        "prompt": "Analyse one enterprise system using Foucault and Winner",
+        "length": "900–1,200 words",
+        "criteria": "Thesis, two theoretical concepts, concrete interface evidence, counterargument, conclusion.",
+        "rubric": [
+          [
+            "Problem definition and thesis",
+            20
+          ],
+          [
+            "Conceptual or methodological accuracy",
+            25
+          ],
+          [
+            "Use of evidence and examples",
+            25
+          ],
+          [
+            "Critical reflection and limitations",
+            20
+          ],
+          [
+            "Structure, clarity and citations",
+            10
+          ]
+        ]
+      },
+      {
+        "id": "6-a2",
+        "title": "Academic reading response",
+        "prompt": "Evaluate the arguments and limitations of a critical design reading",
+        "length": "400–600 words",
+        "criteria": "Summarise the claim fairly, present evidence, then critique.",
+        "rubric": [
+          [
+            "Problem definition and thesis",
+            20
+          ],
+          [
+            "Conceptual or methodological accuracy",
+            25
+          ],
+          [
+            "Use of evidence and examples",
+            25
+          ],
+          [
+            "Critical reflection and limitations",
+            20
+          ],
+          [
+            "Structure, clarity and citations",
+            10
+          ]
+        ]
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Power/knowledge asks us to examine…",
+        "options": [
+          "How categories and expertise shape what counts as truth",
+          "Only colour palettes",
+          "Only response times",
+          "Only screen sizes"
+        ],
+        "answer": 0,
+        "why": "Knowledge-making practices and power reinforce one another."
+      },
+      {
+        "q": "Panopticism is relevant to…",
+        "options": [
+          "Visibility and self-regulation",
+          "Only colour blindness",
+          "File compression",
+          "Chart bin width"
+        ],
+        "answer": 0,
+        "why": "The possibility of being observed can alter conduct."
+      },
+      {
+        "q": "Do Artifacts Have Politics? invites us to ask…",
+        "options": [
+          "How design embeds social power",
+          "How to optimise icon corners",
+          "Whether mean equals median",
+          "Whether a prototype compiles"
+        ],
+        "answer": 0,
+        "why": "Technical arrangements may have political consequences."
+      }
+    ],
+    "links": [
+      "https://plato.stanford.edu/entries/foucault/",
+      "https://designjustice.mitpress.mit.edu/"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Human Factors & Evaluation",
+    "dates": "Dec 14–20",
+    "desc": "Cognition, workload and usability evidence",
+    "lessons": [
+      {
+        "id": "7.1",
+        "title": "Perception and attention",
+        "concepts": "Selective attention, visual search and salience",
+        "goal": "Reduce attentional competition in complex interfaces.",
+        "example": "Inspect an alert-heavy case management UI.",
+        "readings": [
+          {
+            "title": "Nielsen Norman Group",
+            "focus": "Ten usability heuristics",
+            "url": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+            "access": "Free online"
+          },
+          {
+            "title": "NASA TLX",
+            "focus": "Task workload dimensions",
+            "url": "https://humansystems.arc.nasa.gov/groups/tlx/",
+            "access": "Free online"
+          },
+          {
+            "title": "Designing with the Mind in Mind",
+            "focus": "Jeff Johnson, relevant chapters on attention and memory (book reference)",
+            "url": "",
+            "access": "Book reference; obtain through library/bookstore"
+          }
+        ],
+        "studySteps": [
+          "Define the central ideas: Selective attention, visual search and salience.",
+          "Use the UX scenario: Inspect an alert-heavy case management UI.",
+          "Test your understanding: explain how the idea supports this objective: Reduce attentional competition in complex interfaces.",
+          "Write a short evidence-based explanation, cite the reading, and note at least one limitation."
+        ]
+      },
+      {
+        "id": "7.2",
+        "title": "Memory and mental models",
+        "concepts": "Working memory, chunking and recognition",
+        "goal": "Explain how external cues support users.",
+        "example": "Redesign multi-step onboarding.",
+        "readings": [
+          {
+            "title": "Nielsen Norman Group",
+            "focus": "Ten usability heuristics",
+            "url": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+            "access": "Free online"
+          },
+          {
+            "title": "NASA TLX",
+            "focus": "Task workload dimensions",
+            "url": "https://humansystems.arc.nasa.gov/groups/tlx/",
+            "access": "Free online"
+          },
+          {
+            "title": "Designing with the Mind in Mind",
+            "focus": "Jeff Johnson, relevant chapters on attention and memory (book reference)",
+            "url": "",
+            "access": "Book reference; obtain through library/bookstore"
+          }
+        ],
+        "studySteps": [
+          "Define the central ideas: Working memory, chunking and recognition.",
+          "Use the UX scenario: Redesign multi-step onboarding.",
+          "Test your understanding: explain how the idea supports this objective: Explain how external cues support users.",
+          "Write a short evidence-based explanation, cite the reading, and note at least one limitation."
+        ]
+      },
+      {
+        "id": "7.3",
+        "title": "Workload and error",
+        "concepts": "NASA-TLX, slips, mistakes and task demands",
+        "goal": "Identify human error risks without blaming users.",
+        "example": "High-stakes approval screens.",
+        "readings": [
+          {
+            "title": "Nielsen Norman Group",
+            "focus": "Ten usability heuristics",
+            "url": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+            "access": "Free online"
+          },
+          {
+            "title": "NASA TLX",
+            "focus": "Task workload dimensions",
+            "url": "https://humansystems.arc.nasa.gov/groups/tlx/",
+            "access": "Free online"
+          },
+          {
+            "title": "Designing with the Mind in Mind",
+            "focus": "Jeff Johnson, relevant chapters on attention and memory (book reference)",
+            "url": "",
+            "access": "Book reference; obtain through library/bookstore"
+          }
+        ],
+        "studySteps": [
+          "Define the central ideas: NASA-TLX, slips, mistakes and task demands.",
+          "Use the UX scenario: High-stakes approval screens.",
+          "Test your understanding: explain how the idea supports this objective: Identify human error risks without blaming users.",
+          "Write a short evidence-based explanation, cite the reading, and note at least one limitation."
+        ]
+      },
+      {
+        "id": "7.4",
+        "title": "Evaluation metrics",
+        "concepts": "Success, time, errors and qualitative context",
+        "goal": "Choose metrics that match research questions.",
+        "example": "Plan a short comparative usability test.",
+        "readings": [
+          {
+            "title": "Nielsen Norman Group",
+            "focus": "Ten usability heuristics",
+            "url": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+            "access": "Free online"
+          },
+          {
+            "title": "NASA TLX",
+            "focus": "Task workload dimensions",
+            "url": "https://humansystems.arc.nasa.gov/groups/tlx/",
+            "access": "Free online"
+          },
+          {
+            "title": "Designing with the Mind in Mind",
+            "focus": "Jeff Johnson, relevant chapters on attention and memory (book reference)",
+            "url": "",
+            "access": "Book reference; obtain through library/bookstore"
+          }
+        ],
+        "studySteps": [
+          "Define the central ideas: Success, time, errors and qualitative context.",
+          "Use the UX scenario: Plan a short comparative usability test.",
+          "Test your understanding: explain how the idea supports this objective: Choose metrics that match research questions.",
+          "Write a short evidence-based explanation, cite the reading, and note at least one limitation."
+        ]
+      }
+    ],
+    "assignments": [
+      {
+        "id": "7-a1",
+        "title": "Human factors audit",
+        "prompt": "Audit a complex workflow for attention and error risk",
+        "length": "700–900 words",
+        "criteria": "Use at least three cognitive principles and prioritise mitigations.",
+        "rubric": [
+          [
+            "Problem definition and thesis",
+            20
+          ],
+          [
+            "Conceptual or methodological accuracy",
+            25
+          ],
+          [
+            "Use of evidence and examples",
+            25
+          ],
+          [
+            "Critical reflection and limitations",
+            20
+          ],
+          [
+            "Structure, clarity and citations",
+            10
+          ]
+        ]
+      },
+      {
+        "id": "7-a2",
+        "title": "Usability protocol",
+        "prompt": "Create a test script, measures and post-task prompts",
+        "length": "450–650 words",
+        "criteria": "Provide realistic tasks, success criteria and a consent note.",
+        "rubric": [
+          [
+            "Problem definition and thesis",
+            20
+          ],
+          [
+            "Conceptual or methodological accuracy",
+            25
+          ],
+          [
+            "Use of evidence and examples",
+            25
+          ],
+          [
+            "Critical reflection and limitations",
+            20
+          ],
+          [
+            "Structure, clarity and citations",
+            10
+          ]
+        ]
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Recognition rather than recall often…",
+        "options": [
+          "Increases memory demand",
+          "Reduces memory demand",
+          "Proves perfect usability",
+          "Removes need for testing"
+        ],
+        "answer": 1,
+        "why": "Visible cues can reduce reliance on memory."
+      },
+      {
+        "q": "A slip differs from a mistake because…",
+        "options": [
+          "The goal may be correct but execution goes wrong",
+          "It is always intentional",
+          "It only occurs in children",
+          "It is a statistical test"
+        ],
+        "answer": 0,
+        "why": "Slips often concern execution; mistakes often concern planning or understanding."
+      },
+      {
+        "q": "Task success rate measures…",
+        "options": [
+          "Completion of defined tasks",
+          "Average revenue",
+          "Visual contrast",
+          "Mean age"
+        ],
+        "answer": 0,
+        "why": "It measures the proportion meeting task-specific success criteria."
+      }
+    ],
+    "links": [
+      "https://www.nngroup.com/articles/ten-usability-heuristics/",
+      "https://humansystems.arc.nasa.gov/groups/tlx/"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Integrated Mini Research Project",
+    "dates": "Dec 21–27",
+    "desc": "Bring research, visualisation and theory together",
+    "lessons": [
+      {
+        "id": "8.1",
+        "title": "Problem framing",
+        "concepts": "Context, constraints and a narrow testable question",
+        "goal": "Choose a realistic enterprise UX problem.",
+        "example": "Use an investigation or analytics workflow.",
+        "readings": [
+          {
+            "title": "OpenIntro Statistics",
+            "focus": "Sampling, analysis and uncertainty",
+            "url": "https://www.openintro.org/book/os/",
+            "access": "Free online"
+          },
+          {
+            "title": "Fundamentals of Data Visualization",
+            "focus": "Storytelling, effective comparisons and annotation",
+            "url": "https://clauswilke.com/dataviz/",
+            "access": "Free online"
+          },
+          {
+            "title": "Learning analytics paper",
+            "focus": "Contextual inquiry, methods and constraints",
+            "url": "papers/learning-analytics.pdf",
+            "access": "Bundled PDF"
+          }
+        ],
+        "studySteps": [
+          "Define the central ideas: Context, constraints and a narrow testable question.",
+          "Use the UX scenario: Use an investigation or analytics workflow.",
+          "Test your understanding: explain how the idea supports this objective: Choose a realistic enterprise UX problem.",
+          "Write a short evidence-based explanation, cite the reading, and note at least one limitation."
+        ]
+      },
+      {
+        "id": "8.2",
+        "title": "Dataset and analysis",
+        "concepts": "Small dataset, cleaning, summaries and defensible charts",
+        "goal": "Avoid unsupported conclusions and document assumptions.",
+        "example": "Use synthetic or anonymised data.",
+        "readings": [
+          {
+            "title": "OpenIntro Statistics",
+            "focus": "Sampling, analysis and uncertainty",
+            "url": "https://www.openintro.org/book/os/",
+            "access": "Free online"
+          },
+          {
+            "title": "Fundamentals of Data Visualization",
+            "focus": "Storytelling, effective comparisons and annotation",
+            "url": "https://clauswilke.com/dataviz/",
+            "access": "Free online"
+          },
+          {
+            "title": "Learning analytics paper",
+            "focus": "Contextual inquiry, methods and constraints",
+            "url": "papers/learning-analytics.pdf",
+            "access": "Bundled PDF"
+          }
+        ],
+        "studySteps": [
+          "Define the central ideas: Small dataset, cleaning, summaries and defensible charts.",
+          "Use the UX scenario: Use synthetic or anonymised data.",
+          "Test your understanding: explain how the idea supports this objective: Avoid unsupported conclusions and document assumptions.",
+          "Write a short evidence-based explanation, cite the reading, and note at least one limitation."
+        ]
+      },
+      {
+        "id": "8.3",
+        "title": "Prototype and evaluation",
+        "concepts": "Sketch an interface, define measures and conduct a critique",
+        "goal": "Connect research evidence with decisions.",
+        "example": "Build one interactive view.",
+        "readings": [
+          {
+            "title": "OpenIntro Statistics",
+            "focus": "Sampling, analysis and uncertainty",
+            "url": "https://www.openintro.org/book/os/",
+            "access": "Free online"
+          },
+          {
+            "title": "Fundamentals of Data Visualization",
+            "focus": "Storytelling, effective comparisons and annotation",
+            "url": "https://clauswilke.com/dataviz/",
+            "access": "Free online"
+          },
+          {
+            "title": "Learning analytics paper",
+            "focus": "Contextual inquiry, methods and constraints",
+            "url": "papers/learning-analytics.pdf",
+            "access": "Bundled PDF"
+          }
+        ],
+        "studySteps": [
+          "Define the central ideas: Sketch an interface, define measures and conduct a critique.",
+          "Use the UX scenario: Build one interactive view.",
+          "Test your understanding: explain how the idea supports this objective: Connect research evidence with decisions.",
+          "Write a short evidence-based explanation, cite the reading, and note at least one limitation."
+        ]
+      },
+      {
+        "id": "8.4",
+        "title": "Reflexive critique",
+        "concepts": "Limitations, power and alternative design choices",
+        "goal": "Consider who benefits and what measurements omit.",
+        "example": "Critique a performance dashboard.",
+        "readings": [
+          {
+            "title": "OpenIntro Statistics",
+            "focus": "Sampling, analysis and uncertainty",
+            "url": "https://www.openintro.org/book/os/",
+            "access": "Free online"
+          },
+          {
+            "title": "Fundamentals of Data Visualization",
+            "focus": "Storytelling, effective comparisons and annotation",
+            "url": "https://clauswilke.com/dataviz/",
+            "access": "Free online"
+          },
+          {
+            "title": "Learning analytics paper",
+            "focus": "Contextual inquiry, methods and constraints",
+            "url": "papers/learning-analytics.pdf",
+            "access": "Bundled PDF"
+          }
+        ],
+        "studySteps": [
+          "Define the central ideas: Limitations, power and alternative design choices.",
+          "Use the UX scenario: Critique a performance dashboard.",
+          "Test your understanding: explain how the idea supports this objective: Consider who benefits and what measurements omit.",
+          "Write a short evidence-based explanation, cite the reading, and note at least one limitation."
+        ]
+      }
+    ],
+    "assignments": [
+      {
+        "id": "8-a1",
+        "title": "Mini research report",
+        "prompt": "Complete an evidence-led project report",
+        "length": "1,200–1,600 words",
+        "criteria": "Abstract, problem, method, findings, design, evaluation plan, limitations and references.",
+        "rubric": [
+          [
+            "Problem definition and thesis",
+            20
+          ],
+          [
+            "Conceptual or methodological accuracy",
+            25
+          ],
+          [
+            "Use of evidence and examples",
+            25
+          ],
+          [
+            "Critical reflection and limitations",
+            20
+          ],
+          [
+            "Structure, clarity and citations",
+            10
+          ]
+        ]
+      },
+      {
+        "id": "8-a2",
+        "title": "Five-minute presentation",
+        "prompt": "Write a talk track explaining the research and design tradeoffs",
+        "length": "500–700 words",
+        "criteria": "Explain research question, strongest evidence, design choice and limitations.",
+        "rubric": [
+          [
+            "Problem definition and thesis",
+            20
+          ],
+          [
+            "Conceptual or methodological accuracy",
+            25
+          ],
+          [
+            "Use of evidence and examples",
+            25
+          ],
+          [
+            "Critical reflection and limitations",
+            20
+          ],
+          [
+            "Structure, clarity and citations",
+            10
+          ]
+        ]
+      }
+    ],
+    "quiz": [
+      {
+        "q": "When using simulated data, you should…",
+        "options": [
+          "Present it as observed",
+          "Label it as synthetic",
+          "Hide assumptions",
+          "Infer population truth"
+        ],
+        "answer": 1,
+        "why": "Synthetic data must be transparently labelled."
+      },
+      {
+        "q": "A limitations section should…",
+        "options": [
+          "Discuss alternative explanations",
+          "Only praise the design",
+          "Replace findings",
+          "Avoid uncertainty"
+        ],
+        "answer": 0,
+        "why": "Limitations identify the bounds of the claims."
+      },
+      {
+        "q": "Which is the strongest claim from a small convenience sample?",
+        "options": [
+          "All users prefer A",
+          "Participants in this sample preferred A",
+          "A will always work better",
+          "The UI causes fewer errors globally"
+        ],
+        "answer": 1,
+        "why": "Claims should match study scope."
+      }
+    ],
+    "links": [
+      "https://clauswilke.com/dataviz/",
+      "https://www.openintro.org/book/os/"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Data Visualization Intensive",
+    "dates": "Dec 28–Jan 8",
+    "desc": "Consolidation before the first diploma module",
+    "lessons": [
+      {
+        "id": "9.1",
+        "title": "Information taxonomy",
+        "concepts": "Classes of data, relationships and chart selection",
+        "goal": "Defend why a chart fits the question.",
+        "example": "Audit five different chart types.",
+        "readings": [
+          {
+            "title": "Fundamentals of Data Visualization",
+            "focus": "Chart types, scales, uncertainty, storytelling",
+            "url": "https://clauswilke.com/dataviz/",
+            "access": "Free online"
+          },
+          {
+            "title": "Election visualisation paper",
+            "focus": "Data pipeline, hypotheses, encoding and visual discovery",
+            "url": "papers/election-visualisation.pdf",
+            "access": "Bundled PDF"
+          },
+          {
+            "title": "Movie narrative visualisation paper",
+            "focus": "Interaction and narrative model",
+            "url": "papers/movie-narratives.pdf",
+            "access": "Bundled PDF"
+          }
+        ],
+        "studySteps": [
+          "Define the central ideas: Classes of data, relationships and chart selection.",
+          "Use the UX scenario: Audit five different chart types.",
+          "Test your understanding: explain how the idea supports this objective: Defend why a chart fits the question.",
+          "Write a short evidence-based explanation, cite the reading, and note at least one limitation."
+        ]
+      },
+      {
+        "id": "9.2",
+        "title": "Interactive discovery",
+        "concepts": "Filtering, comparison, brushing, details-on-demand",
+        "goal": "Design an exploration task, not decorative motion.",
+        "example": "Analyse the election visualisation paper.",
+        "readings": [
+          {
+            "title": "Fundamentals of Data Visualization",
+            "focus": "Chart types, scales, uncertainty, storytelling",
+            "url": "https://clauswilke.com/dataviz/",
+            "access": "Free online"
+          },
+          {
+            "title": "Election visualisation paper",
+            "focus": "Data pipeline, hypotheses, encoding and visual discovery",
+            "url": "papers/election-visualisation.pdf",
+            "access": "Bundled PDF"
+          },
+          {
+            "title": "Movie narrative visualisation paper",
+            "focus": "Interaction and narrative model",
+            "url": "papers/movie-narratives.pdf",
+            "access": "Bundled PDF"
+          }
+        ],
+        "studySteps": [
+          "Define the central ideas: Filtering, comparison, brushing, details-on-demand.",
+          "Use the UX scenario: Analyse the election visualisation paper.",
+          "Test your understanding: explain how the idea supports this objective: Design an exploration task, not decorative motion.",
+          "Write a short evidence-based explanation, cite the reading, and note at least one limitation."
+        ]
+      },
+      {
+        "id": "9.3",
+        "title": "Visualization critique",
+        "concepts": "Truthfulness, hierarchy, annotation and accessibility",
+        "goal": "Critique from evidence and reader goals.",
+        "example": "Refactor a dense operational dashboard.",
+        "readings": [
+          {
+            "title": "Fundamentals of Data Visualization",
+            "focus": "Chart types, scales, uncertainty, storytelling",
+            "url": "https://clauswilke.com/dataviz/",
+            "access": "Free online"
+          },
+          {
+            "title": "Election visualisation paper",
+            "focus": "Data pipeline, hypotheses, encoding and visual discovery",
+            "url": "papers/election-visualisation.pdf",
+            "access": "Bundled PDF"
+          },
+          {
+            "title": "Movie narrative visualisation paper",
+            "focus": "Interaction and narrative model",
+            "url": "papers/movie-narratives.pdf",
+            "access": "Bundled PDF"
+          }
+        ],
+        "studySteps": [
+          "Define the central ideas: Truthfulness, hierarchy, annotation and accessibility.",
+          "Use the UX scenario: Refactor a dense operational dashboard.",
+          "Test your understanding: explain how the idea supports this objective: Critique from evidence and reader goals.",
+          "Write a short evidence-based explanation, cite the reading, and note at least one limitation."
+        ]
+      },
+      {
+        "id": "9.4",
+        "title": "Presentation and revision",
+        "concepts": "Research narrative, key definitions and reflective writing",
+        "goal": "Explain your work clearly with caveats and citations.",
+        "example": "Prepare a seven-slide walkthrough.",
+        "readings": [
+          {
+            "title": "Fundamentals of Data Visualization",
+            "focus": "Chart types, scales, uncertainty, storytelling",
+            "url": "https://clauswilke.com/dataviz/",
+            "access": "Free online"
+          },
+          {
+            "title": "Election visualisation paper",
+            "focus": "Data pipeline, hypotheses, encoding and visual discovery",
+            "url": "papers/election-visualisation.pdf",
+            "access": "Bundled PDF"
+          },
+          {
+            "title": "Movie narrative visualisation paper",
+            "focus": "Interaction and narrative model",
+            "url": "papers/movie-narratives.pdf",
+            "access": "Bundled PDF"
+          }
+        ],
+        "studySteps": [
+          "Define the central ideas: Research narrative, key definitions and reflective writing.",
+          "Use the UX scenario: Prepare a seven-slide walkthrough.",
+          "Test your understanding: explain how the idea supports this objective: Explain your work clearly with caveats and citations.",
+          "Write a short evidence-based explanation, cite the reading, and note at least one limitation."
+        ]
+      }
+    ],
+    "assignments": [
+      {
+        "id": "9-a1",
+        "title": "Final chart critique essay",
+        "prompt": "Critique and redesign an evidence-rich chart",
+        "length": "800–1,000 words",
+        "criteria": "Purpose, audience, dataset, encoding rationale, biases and iteration.",
+        "rubric": [
+          [
+            "Problem definition and thesis",
+            20
+          ],
+          [
+            "Conceptual or methodological accuracy",
+            25
+          ],
+          [
+            "Use of evidence and examples",
+            25
+          ],
+          [
+            "Critical reflection and limitations",
+            20
+          ],
+          [
+            "Structure, clarity and citations",
+            10
+          ]
+        ]
+      },
+      {
+        "id": "9-a2",
+        "title": "Seven-slide final prep",
+        "prompt": "Plan a presentation explaining one visualisation from question to design",
+        "length": "600–800 words",
+        "criteria": "Slide-by-slide narrative, findings, interaction behaviour and limitations.",
+        "rubric": [
+          [
+            "Problem definition and thesis",
+            20
+          ],
+          [
+            "Conceptual or methodological accuracy",
+            25
+          ],
+          [
+            "Use of evidence and examples",
+            25
+          ],
+          [
+            "Critical reflection and limitations",
+            20
+          ],
+          [
+            "Structure, clarity and citations",
+            10
+          ]
+        ]
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Good chart selection begins with…",
+        "options": [
+          "Audience question and data type",
+          "Favourite palette",
+          "Chart novelty",
+          "Animation duration"
+        ],
+        "answer": 0,
+        "why": "The data and analytical task should drive encoding."
+      },
+      {
+        "q": "Brushing and linking supports…",
+        "options": [
+          "Coordinated exploration across views",
+          "Random assignment",
+          "Sampling representativeness",
+          "A true zero"
+        ],
+        "answer": 0,
+        "why": "Linked views connect subsets across displays."
+      },
+      {
+        "q": "A useful chart critique evaluates…",
+        "options": [
+          "Evidence, encoding and interpretation",
+          "Only appearance",
+          "Only framework choice",
+          "Only loading speed"
+        ],
+        "answer": 0,
+        "why": "It connects the visual design to analytical validity."
+      }
+    ],
+    "links": [
+      "https://clauswilke.com/dataviz/",
+      "https://www.data-to-viz.com/"
+    ]
+  }
+]
