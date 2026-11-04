@@ -4685,14 +4685,44 @@
     ]
   },
   "progress": {
-    "updatedAt": null,
-    "completedLessons": {},
-    "completedReadings": {},
-    "lessonNotes": {},
+    "updatedAt": "2026-11-04T04:59:02.585Z",
+    "completedLessons": {
+      "1.1": true,
+      "1.2": true,
+      "1.3": true,
+      "1.4": true
+    },
+    "completedReadings": {
+      "1.1-r1": true
+    },
+    "lessonNotes": {
+      "1.1": "So mostly here what was there to takeaway is the 4 levels of measurements, \n1. Nominal - This is division in mostly categorical sects, this can be like groups or some sort of collective unit enveloping a range. Like Blood groups or Devices used. These are not is a specific order. Mostly represented by Bar graphs or pie charts. Basically one bucket per category.\n2. Ordinal - Here this are in a ranked order and cant be altered, but the gaps between ranks aren't necessarily equal. For instance, satisfaction ratings like poor, fair, good, excellent or class rankings or priority levels. Ordinal data often uses ordered bars or stacked bars or heatmaps. But the key is the sequence. \n\nSo you'd never shuffle the order randomly of the bars. And you wouldn't use an average or mean over nominal or ordinal data, but medians or modes can work depending on what you're trying to convey."
+    },
     "assignmentDrafts": {},
-    "assignmentScores": {},
-    "quizHistory": {},
-    "practiceAnswers": {},
+    "assignmentScores": {
+      "1-a1": {
+        "0": 0
+      }
+    },
+    "quizHistory": {
+      "1": [
+        {
+          "at": "2026-11-04T04:56:45.902Z",
+          "score": 6,
+          "total": 8,
+          "pct": 75
+        },
+        {
+          "at": "2026-11-04T04:59:02.585Z",
+          "score": 8,
+          "total": 8,
+          "pct": 100
+        }
+      ]
+    },
+    "practiceAnswers": {
+      "1.2": "Well then mean of this is 28 and median being 15. This is better than using mode, range or SD. Considering this is the time consumed in seconds for a set of 5 users trying to update their addresses on an app, the first 4 users comfortably finish it under 20 secs while the last user struggles and take 60 more seconds. We dont find any mode and the range is about 68, which does not really show the real picture."
+    },
     "bookmarks": {}
   }
 }
